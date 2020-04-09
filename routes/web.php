@@ -11,6 +11,11 @@
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('welcome');
 });
+=======
+Route::get('/', 'SuratController@index');
+Route::get('/surat/{id}', 'SuratController@show');
+>>>>>>> menambahkan fitur lihat alquran
