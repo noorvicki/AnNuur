@@ -21,6 +21,7 @@
 
             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
               <li><a href="/" class="nav-link">Home</a></li>
+              <li><a href="/kategori" class="nav-link">Kategori</a></li>
               <li><a href="#" class="nav-link">About Us</a></li>
               <li><a href="#" class="nav-link">Contact</a></li>
             </ul>
