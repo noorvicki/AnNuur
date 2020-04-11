@@ -7,7 +7,7 @@
 <!-- Kategori Field -->
 <div class="form-group">
     {!! Form::label('kategori', 'Kategori:') !!}
-    <p>{{ $post->kategori }}</p>
+    <p>{{ $post->Kategori->kategori }}</p>
 </div>
 
 <!-- Tag Field -->

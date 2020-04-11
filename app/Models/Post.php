@@ -60,6 +60,14 @@ class Post extends Model
         'gambar' => 'file|image|mimes:jpeg,png,jpg|max:2048',
         'body' => 'required'
     ];
+    public function Kategori()
+    {
+            return $this->hasOne(Kategori::class, 'id', 'kategori');
+    }
+    public function Tag()
+    {
+            return $this->hasOne(Tag::class, 'id', 'tag');
+    }
 
 
 }
