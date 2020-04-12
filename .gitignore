@@ -16,6 +16,5 @@ yarn-error.log
 .phpunit.result.cache
 .env
 .env.backup
-.phpunit.result.cache
 fields_sample.json
 composer.lock
