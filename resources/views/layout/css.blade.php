@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ asset('landerz/css/aos.css')}}">
 
     <link rel="stylesheet" href="{{ asset('landerz/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
     <style>
         @font-face {
             font-family: arab;

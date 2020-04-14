@@ -1,7 +1,7 @@
 @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 
 .form-control {
-    border-radius: 5px !important;
+    border-radius: 2px !important;
 }
 
 .filter-control {
@@ -171,4 +171,47 @@ table.dataTable tbody td {
     margin: auto;
     filter: alpha(opacity=60);
     background-image: none !important;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .icon {
+    position: absolute;
+    padding: 13px;
+    pointer-events: none;
+}
+
+/* align icon */
+.left-addon .icon  { left:  0; top: 0;}
+.right-addon .icon { right: 0; top: 0;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.inner-addon .autocomplete {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    background: white;
+}
+
+.autocomplete a {
+    width: 100%;
+}
+
+.autocomplete-item {
+    display: block;
+    width: 100%;
+    padding: 5px 14px;
+}
+
+.autocomplete-item:hover {
+    cursor: pointer;
+    background: #4f9ba3;
+    color: white !important;
 }

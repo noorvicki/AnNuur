@@ -15,6 +15,7 @@
 
 
   <script src="{{ asset('landerz/js/main.js')}}"></script>
+  <script src="{{ asset('js/autocomplete.js')}}"></script>
 
   </body>
 </html>
